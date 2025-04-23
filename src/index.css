@@ -1,0 +1,31 @@
+:root {
+    --bg: #f8f9fa;
+    --fg: #212529;
+    --nav-bg: #0d6efd;
+    --card-bg: #ffffff;
+  }
+  [data-theme='dark'] {
+    --bg: #212529;
+    --fg: #f8f9fa;
+    --nav-bg: #1b1e21;
+    --card-bg: #2a2d31;
+  }
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    color: var(--fg);
+    transition: background 0.3s, color 0.3s;
+  }
+  .navbar, footer, .card {
+    background-color: var(--nav-bg);
+    transition: background-color 0.3s;
+  }
+  .card {
+    background-color: var(--card-bg) !important;
+  }
+/* Make all text light in dark theme */
+[data-theme='dark'] body,
+[data-theme='dark'] body * {
+  color: var(--fg) !important;
+}
