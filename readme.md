@@ -74,6 +74,8 @@ Add page transitions with Framer Motion.
 
 Customize Bootstrap theme via Sass or CSS variables.
 
+Deployed on Netlify :
+https://cheery-manatee-c19041.netlify.app/
 
 
 👩‍💻 Built with ♥️ by Yashvi TANK 
